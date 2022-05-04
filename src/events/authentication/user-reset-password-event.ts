@@ -7,6 +7,6 @@ export interface UserResetPasswordEvent {
     email: string;
     otp: string;
     resetToken: string;
-    expiresIn: number; // In minutes
+    expiresIn: number; // In seconds
   };
 }

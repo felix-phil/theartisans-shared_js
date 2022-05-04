@@ -6,6 +6,6 @@ export interface UserSigninOTPEvent {
     userId: string;
     email: string;
     otp: string;
-    expiresIn: number; // In Minutes
+    expiresIn: number; // In seconds
   };
 }
