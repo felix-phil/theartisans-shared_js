@@ -12,5 +12,8 @@ export * from './middlewares/validate-request';
 
 export * from './events/base-listener';
 export * from './events/base-publisher';
+export * from './events/authentication/user-reset-password-event';
+export * from './events/authentication/user-signin-otp-event';
+export * from './events/authentication/user-signup-otp-event';
 export * from './events/subjects';
-export * from './authentication/user-roles';
+export * from './types/user-roles';

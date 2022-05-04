@@ -1,3 +1,5 @@
 export enum Subjects {
-  UserCreate = 'user:created',
+  UserSignupOTP = 'user:signup:otp',
+  UserSigninOTP = 'user:signin:otp',
+  UserResetPassword = 'user:reset:password',
 }
