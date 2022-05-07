@@ -1,9 +1,18 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
+import { UserRoles } from '../types/user-roles';
 
 interface UserPayload {
   id: string;
   email: string;
+  roles: UserRoles[];
+  firstName?: string;
+  lastName?: string;
+  active: boolean;
+  banned: boolean;
+  mobileNumber?: string;
+  loginCount: number;
+  lastLogin: Date;
 }
 
 declare global {
