@@ -3,3 +3,9 @@ export interface SubscriptionValueType {
   price: number; // price in US Dollars
   benefits: string[];
 }
+
+export enum SubscriptionType {
+  BASIC,
+  PRO,
+  PREMIUM,
+}

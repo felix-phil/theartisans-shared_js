@@ -19,5 +19,5 @@ export * from './events/authentication/user-password-changed-event';
 export * from './events/subjects';
 
 export * from './types/user-roles';
-export * from './types/user-subscriptions';
-export * from './data/user-subscriptions';
+export * from './types/subscription';
+export * from './data/subscription';
