@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
+import { SubscriptionType } from '../types/subscription';
 import { UserRoles } from '../types/user-roles';
 
 interface UserPayload {
@@ -10,6 +11,10 @@ interface UserPayload {
   lastName?: string;
   active: boolean;
   banned: boolean;
+  subscription: {
+    id: string;
+    subscriptionType: SubscriptionType;
+  } | null;
   mobileNumber?: string;
   loginCount: number;
   lastLogin: Date;
