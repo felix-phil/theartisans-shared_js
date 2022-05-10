@@ -9,5 +9,6 @@ export interface SubscriptionCreatedEvent {
     email: string;
     subscriptionType: SubscriptionType;
     expiryDate: string;
+    version: number;
   };
 }
