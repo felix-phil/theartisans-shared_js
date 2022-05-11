@@ -18,6 +18,7 @@ interface UserPayload {
   mobileNumber?: string;
   loginCount: number;
   lastLogin: Date;
+  profileImageUrl?: string;
 }
 
 declare global {
