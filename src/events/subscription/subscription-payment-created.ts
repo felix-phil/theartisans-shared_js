@@ -9,5 +9,7 @@ export interface SubscriptionPaymentCreatedEvent {
     subscriptionType: SubscriptionType;
     amount: number;
     date: string;
+    transactionId: string;
+    quantity: number;
   };
 }
