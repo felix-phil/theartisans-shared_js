@@ -5,7 +5,7 @@ export interface SubscriptionValueType {
 }
 
 export enum SubscriptionType {
-  BASIC,
-  PRO,
-  PREMIUM,
+  BASIC = 'BASIC',
+  PRO = 'PRO',
+  PREMIUM = 'PREMIUM',
 }
