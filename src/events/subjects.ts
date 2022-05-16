@@ -6,4 +6,6 @@ export enum Subjects {
   SubscriptionPaymentCreated = 'subscription:payment:created',
   SubscriptionCreated = 'subscription:created',
   SubscriptionUpdated = 'subscription:updated',
+  BillingCreated = 'billing:created',
+  BillingDeleted = 'billing:deleted',
 }
