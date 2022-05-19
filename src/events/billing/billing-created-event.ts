@@ -6,13 +6,10 @@ export interface BillingCreatedEvent {
     id: string;
     userId: string;
     email: string;
-    firstName: string;
-    lastName: string;
+    fullName: string;
     cardNumber: string;
     cardExpiryMonth: string;
     cardExpiryYear: string;
-    cardCvv: string;
     cardToken: string;
-    version: number;
   };
 }
