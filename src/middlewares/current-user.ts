@@ -15,6 +15,7 @@ interface UserPayload {
     id: string;
     subscriptionType: SubscriptionType;
   } | null;
+  billingId?: string;
   mobileNumber?: string;
   loginCount: number;
   lastLogin: Date;
