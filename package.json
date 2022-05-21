@@ -1,6 +1,6 @@
 {
   "name": "@theartisans/shared",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "",
   "main": "./build/index.js",
   "types": "./index.d.ts",
