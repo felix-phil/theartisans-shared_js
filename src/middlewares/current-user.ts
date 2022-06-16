@@ -1,7 +1,7 @@
-import { Request, Response, NextFunction } from 'express';
-import jwt from 'jsonwebtoken';
-import { SubscriptionType } from '../types/subscription';
-import { UserRoles } from '../types/user-roles';
+import { Request, Response, NextFunction } from "express";
+import jwt from "jsonwebtoken";
+import { SubscriptionType } from "../types/subscription";
+import { UserRoles } from "../types/user-roles";
 
 interface UserPayload {
   id: string;
@@ -14,6 +14,7 @@ interface UserPayload {
   subscription: {
     id: string;
     subscriptionType: SubscriptionType;
+    expiryDate: Date;
   } | null;
   billingId?: string;
   mobileNumber?: string;
