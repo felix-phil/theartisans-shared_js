@@ -13,10 +13,14 @@
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
-  "author": "",
+  "author": "Felix Philips",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felix-phil/theartisans-shared_js.git"
   },
   "dependencies": {
     "@types/cookie-session": "^2.0.44",
